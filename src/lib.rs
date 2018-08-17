@@ -8,6 +8,8 @@ mod data;
 mod errors;
 mod bits_to_bits;
 
+pub use errors::Base32768Error;
+
 static POINT_LEN: usize = 15;
 
 struct LookupTables {
